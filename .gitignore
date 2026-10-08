@@ -1,0 +1,32 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Environment Variables
+.env
+.env.local
+
+# Build output
+dist/
+build/
+frontend/dist/
+
+# Auto-generated assets
+backend/public/pdfs/*
+!backend/public/pdfs/.gitkeep
+backend/public/images/*
+!backend/public/images/.gitkeep
+
+# macOS
+.DS_Store
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
